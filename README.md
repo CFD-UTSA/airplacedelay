@@ -34,8 +34,11 @@ The formula and calculation of multiple linear regression
 y_i=\beta_0+\beta_1x_i1+\beta_2x_i2+....
 
 Yi=dependent variable
+
 Xi=explanatory variables
+
 \beta0=y-intercept
+
 \betap=slope coefficients for each explanatory variable
 
 KNN method
