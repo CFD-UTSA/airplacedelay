@@ -11,6 +11,11 @@ It has the Electricity and fuels used for different industries from 1977 to 2004
 It use the industry group code in the excel file, i have to cage the code to words first.
 The NAICS xxx is the industry group code. For example NAICS 312 is the Industries in the Beverage and Tobacco product manufacturing subsector manufacture beverages and tobacco products.
 
+For Conversion_factors
+
+It has electricity Retail sales, electricity system energy loss, and losses/Sales from 1949 to 2004.
+
+
 # Goal of the project
 For the project, I want to find out how the different industries energy used change from the giving data, and how the electricity sales and lose in the past 70 years.
 For the method, the first part I’m using is similar to the project1, using the FFT and no-linear regression to find the trace of the energy used.
