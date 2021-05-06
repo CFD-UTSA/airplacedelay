@@ -30,11 +30,15 @@ The I’m going to use is the scikit-learn to analysis and predict the data. The
 The mathematical methods includes FFT, no-linear regression, multiple Linear regression and KNN.
 The multiple linear regression is a statistical technique that uses several explanatory variables to predict the outcome of a response variable. The goal of multiple linear regression is to model the linear relationship between the explanatory (independent) variables and response (dependent) variable.
 The formula and calculation of multiple linear regression
+
 y_i=\beta_0+\beta_1x_i1+\beta_2x_i2+....
+
 Yi=dependent variable
 Xi=explanatory variables
 \beta0=y-intercept
 \betap=slope coefficients for each explanatory variable
+
 KNN method
+
 k-nearest neighbors algorithm is a non-paramtetric classification methods.
 KNN is a type of classification where the function is only approximated locally and all computations is deferred until function evaluation.
