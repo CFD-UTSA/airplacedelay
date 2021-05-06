@@ -45,3 +45,8 @@ KNN method
 
 k-nearest neighbors algorithm is a non-paramtetric classification methods.
 KNN is a type of classification where the function is only approximated locally and all computations is deferred until function evaluation.
+
+# Expect from the project
+1,Find the trace of energy used (Fules and Elecrticty) used in different industry in the passed years. 
+2,Predict the energy used in the furture for different industry. 
+
