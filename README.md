@@ -28,8 +28,12 @@ The new modules is metpy. Base on the map given by metpy, i make a sufrface stat
 
 # Expect from the project
 1, Plot each airplort direct on the map.
+
 2, Histograme show the number of delay classify by airplane company.
+
 3, Line plot show the trace of number of delay change by years and month.
+
+4,Have a direct view of airplane delay situation in American.
 
 
 # Reference
