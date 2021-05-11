@@ -1,57 +1,36 @@
-# Final-Project
-Link for the data set
-https://openei.org/doe-opendata/dataset/f6c9151f-3488-452e-a898-f4f607a025e8/resource/c19dba77-47f4-47f3-b2a0-e20c3297f8b3/download/industrialindicators.xls
-
+# Final-Project Airplane delay in American
+Link for the data set https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp.
+However, it need to select period by yourself and decompressing from zip code.
 # Data background
-The project is trying to simulate the data about the energy intensity indicators in the U.S from 1949-2004
-Energy intensity data and documenttation published by the U.S DOE's office of Energy Efficiency and Renewable Energy.
-Energy intensity is defined as:amount of energy used in producing a given level of out or activity, or energy per unit of output. This is the energy intensity of the industrial sector, which is an end-use that consists of all facilities and equipment used for producing, processing. 
+This project is trying to using surface station plot, histogram plot and line plot to analysis the airplane delay in American in the past 5 years.
 
-It has the Electricity and fuels used for different industries from 1977 to 2004. 
-It use the industry group code in the excel file, i have to cage the code to words first.
-The NAICS xxx is the industry group code. For example NAICS 312 is the Industries in the Beverage and Tobacco product manufacturing subsector manufacture beverages and tobacco products.
+The shape of the data is (87860,22). The column shows the reason of delay, the airport, airline company, and the location of the airport. The row shows the number of each airline company delay at each month and airport for each reason.
 
-For Conversion_factors
+A list of python libraries is showing below:
+i.	Numpy – This package is using for support large matrices calculation.
+ii.	Pandas -This package is using for data analysis in this project.
+iii.	Matplotlib – This package is using for line plot, histogram plot, pie plot in this project.
+iv.	Metpy -This package is using for surface plot and interpolation plot in this project.
 
-It has electricity Retail sales, electricity system energy loss, and losses/Sales from 1949 to 2004.
 
 
 # Goal of the project
-For the project, I want to find out how the different industries energy used change from the giving data, and how the electricity sales and lose in the past 70 years.
-For the method, the first part I’m using is similar to the project1, using the FFT and no-linear regression to find the trace of the energy used.
-The second part I’m going to use multiple linear regression and k-nearest neighbors’ algorithm to predict the electricity and fuels used for different industries in the future. I am going to use the model in scikit-learn (sklearn.linear_model and sklearn.neighbors) in python to solve the problem. 
+The goal of the project is to give a direct viewing of fight delays in American.
 
 # For the python coding:
 The first part is import data and extract data from excel and prepare.
-The second part is plot the data for electricity and fuels use for different industries. Which include the FFT and no-linear.. Which is similar to project1.
-The third part is using the multiple linear regression and KNN method to predict that will the energy use for the industrial in the future.
+The second part is pull out the necessary data and regroup them for plotting
+The third part is finding the best way to plot the prepared data.
 
 # The new modules:
-The I’m going to use is the scikit-learn to analysis and predict the data. The coding to import the model is:
-  (from skearn.linear_model import LinearRegression) for multiple Linear regression
-  (from sklearn.neighbors import KneighborsRegressor) for KNN 
+The new modules is metpy. Base on the map given by metpy, i make a sufrface station plot base on the location of the airplot.
 
-# The mathematical methods:
-The mathematical methods includes FFT, no-linear regression, multiple Linear regression and KNN.
-The multiple linear regression is a statistical technique that uses several explanatory variables to predict the outcome of a response variable. The goal of multiple linear regression is to model the linear relationship between the explanatory (independent) variables and response (dependent) variable.
-The formula and calculation of multiple linear regression
-
-y_i=\beta_0+\beta_1x_i1+\beta_2x_i2+....
-
-Yi=dependent variable
-
-Xi=explanatory variables
-
-\beta0=y-intercept
-
-\betap=slope coefficients for each explanatory variable
-
-KNN method
-
-k-nearest neighbors algorithm is a non-paramtetric classification methods.
-KNN is a type of classification where the function is only approximated locally and all computations is deferred until function evaluation.
 
 # Expect from the project
-1,Find the trace of energy used (Fules and Elecrticty) used in different industry in the passed years. 
-2,Predict the energy used in the furture for different industry. 
+1, Plot each airplort direct on the map.
+2, Histograme show the number of delay classify by airplane company.
+3, Line plot show the trace of number of delay change by years and month.
 
+
+# Reference
+https://unidata.github.io/MetPy/latest/examples/index.html
